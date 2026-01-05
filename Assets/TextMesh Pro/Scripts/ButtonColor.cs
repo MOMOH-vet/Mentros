@@ -7,17 +7,63 @@ public class ButtonColor : MonoBehaviour
     [SerializeField] private WallpaperColorTarget target;
     [SerializeField] private string ButtonName;
     [SerializeField] private Color AltColor;
-    
-
+    [SerializeField] private ColorMode mode = ColorMode.AltColor;
 
     private Image img;
-    private int _clickTick;
-    private Color _color;
+    private enum ColorMode
+    {
+        ButtonColor,
+        WhiteColor,
+        AltColor
+    }
     
     private void Awake()
     {
-        img = GetComponent<Image>();
-        _color = Color.white;       
+        img = GetComponent<Image>();        
+    }
+
+    public Color GetCollorForCurrentMy()
+    {        
+        switch (mode)
+        {
+            case ColorMode.ButtonColor:
+                return img.color;
+
+            case ColorMode.WhiteColor:
+                return Color.white;
+
+            case ColorMode.AltColor:
+                return AltColor;
+
+            default:
+                Debug.Log("дефолтный альт цвет");
+                mode = ColorMode.ButtonColor;
+                return img.color;
+        }
+    }
+
+    public void AdvanceMode()
+    {
+        switch (mode)
+        {
+            case ColorMode.ButtonColor:
+                mode = ColorMode.WhiteColor;
+                break;
+
+            case ColorMode.WhiteColor:
+                mode = ColorMode.AltColor;
+                break;
+
+            case ColorMode.AltColor:
+                mode = ColorMode.ButtonColor;
+                break;
+
+            default:
+                Debug.Log("Дефалт альт цвет");
+                mode = ColorMode.AltColor;
+                break;              
+        }
+       
     }
     
     public void AplyColor()
@@ -29,33 +75,20 @@ public class ButtonColor : MonoBehaviour
             return;
         }
 
-        _clickTick++;
-        int mode = _clickTick % 3;
-        
-        Color colorToApply;
-        if (mode == 1)
+        if (img == null)
         {
-            colorToApply = img.color;
-            Debug.Log("применен альт цвет");
-            
+            Debug.Log("неназначен имидж");
+            return;
         }
-        else if (mode == 2)
-        {
-            colorToApply = _color;
-            Debug.Log("применен белый цвет");
-        }
-        else
-        {
-            colorToApply = AltColor;
-            Debug.Log("Применен цвет конпки");
-        }
-        
 
-            target.SetColor(colorToApply);
-        
- 
+                   
+        Color colorToApply = GetCollorForCurrentMy();
 
-        Debug.Log($"[{ButtonName} {colorToApply} {_clickTick}]");
+        target.SetColor(colorToApply);
+
+        AdvanceMode();
+
+        Debug.Log($"[{ButtonName} {colorToApply}]");
     }
     
 }

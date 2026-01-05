@@ -446,6 +446,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ToggleButton
   _panel: {fileID: 1552628617}
+  _buttonName: "\u0412\u043A\u043B / \u0432\u044B\u043A\u043B"
 --- !u!114 &356516085
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -963,6 +964,7 @@ MonoBehaviour:
   target: {fileID: 1552628621}
   ButtonName: "\u0441\u0438\u043D\u0438\u0439"
   AltColor: {r: 1, g: 0.3529412, b: 1, a: 1}
+  mode: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,6 +1335,7 @@ MonoBehaviour:
   target: {fileID: 1552628621}
   ButtonName: "\u043A\u0440\u0430\u0441\u043D\u044B\u0439"
   AltColor: {r: 1, g: 0.36862746, b: 1, a: 1}
+  mode: 2
 --- !u!1 &1419655148
 GameObject:
   m_ObjectHideFlags: 0
@@ -1585,6 +1588,7 @@ MonoBehaviour:
   target: {fileID: 0}
   ButtonName: "\u0436\u0435\u043B\u0442\u044B\u0439"
   AltColor: {r: 0.9607844, g: 0.39607844, b: 0.9607844, a: 1}
+  mode: 0
 --- !u!1 &1552628617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1964,6 +1968,7 @@ MonoBehaviour:
   target: {fileID: 0}
   ButtonName: "\u0437\u0435\u043B\u0435\u043D\u044B\u0439"
   AltColor: {r: 1, g: 0.40392157, b: 1, a: 1}
+  mode: 0
 --- !u!1 &2014057995
 GameObject:
   m_ObjectHideFlags: 0
