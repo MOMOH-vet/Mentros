@@ -6,30 +6,56 @@ public class ButtonColor : MonoBehaviour
 {
     [SerializeField] private WallpaperColorTarget target;
     [SerializeField] private string ButtonName;
-
-    private Image img;
-   
+    [SerializeField] private Color AltColor;
     
 
+
+    private Image img;
+    private int _clickTick;
+    private Color _color;
+    
     private void Awake()
     {
         img = GetComponent<Image>();
+        _color = Color.white;       
     }
     
-    public void AplyMyColor()
+    public void AplyColor()
     {
-        target.SetColor(img.color);
-
+              
         if (target == null)
         {
             Debug.Log("неназначен таргет");
+            return;
         }
 
-        if (ButtonName == null)
+        _clickTick++;
+        int mode = _clickTick % 3;
+        
+        Color colorToApply;
+        if (mode == 1)
         {
-            Debug.Log("неназначена  кнопка");
+            colorToApply = img.color;
+            Debug.Log("применен альт цвет");
+            
         }
-        Debug.Log($"[{ButtonName} {img.color}]");
+        else if (mode == 2)
+        {
+            colorToApply = _color;
+            Debug.Log("применен белый цвет");
+        }
+        else
+        {
+            colorToApply = AltColor;
+            Debug.Log("Применен цвет конпки");
+        }
+        
+
+            target.SetColor(colorToApply);
+        
+ 
+
+        Debug.Log($"[{ButtonName} {colorToApply} {_clickTick}]");
     }
     
 }
