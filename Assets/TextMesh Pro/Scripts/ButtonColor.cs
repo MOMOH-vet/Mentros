@@ -81,13 +81,12 @@ public class ButtonColor : MonoBehaviour
             return;
         }
 
-                   
+        AdvanceMode();
+
         Color colorToApply = GetCollorForCurrentMy();
 
         target.SetColor(colorToApply);
-
-        AdvanceMode();
-
+       
         Debug.Log($"[{ButtonName} {colorToApply}]");
     }
     
