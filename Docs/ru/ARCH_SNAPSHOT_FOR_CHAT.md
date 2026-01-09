@@ -52,17 +52,21 @@
 - Tests → Contracts, Core, Content, Input, Combat, Tanks, AI, Levels, Persistence, UI (Editor only)
 
 ## 5) Правило размещения Contracts
-- Все интерфейсы/enum/ID — только в Assets/BattleTank/Scripts/Runtime/Contracts/{Enums,Interfaces,Ids}.
+- Contracts: только межмодульные/публичные контракты (2+ модулей и/или API сохранений/данных).
+- Локальные контракты — внутри своего модуля (или private в классе).
+- Примеры: GameState/Team/ResourceType в Contracts; локальные enum AI — в AI.
 
 ## 6) Правило размещения данных (ScriptableObjects)
 - Ассеты: Assets/BattleTank/ScriptableObjects/.
 - Код классов SO: Assets/BattleTank/Scripts/Runtime/Content/.
+- Навигация: классы SO держим в Content/Definitions (или аналогичной подпапке).
 
 ## 7) Базовые правила сохранения (Persistence)
 - Формат: JSON.
 - Версионирование данных.
 - Безопасная загрузка (safe load), без падений.
 - Атомарная запись (tmp → replace).
+- Файлы сохранений: Application.persistentDataPath (Android).
 
 ## 8) UI boundary
 - UI не зависит от Tanks/Combat/AI/Levels (ни ссылок, ни asmdef-зависимостей).
