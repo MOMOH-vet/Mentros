@@ -1,0 +1,3 @@
+- Purpose: Level flow and stage composition.
+- Contains level runtime orchestration.
+- Rule: Use Core, Tanks, AI, Combat, Content.

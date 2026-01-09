@@ -1,0 +1,3 @@
+- Purpose: All BattleTank C# code and assemblies.
+- Contains runtime modules and tests.
+- Rule: Use asmdefs per module folder.

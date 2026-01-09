@@ -1,0 +1,3 @@
+- Purpose: Data assets for tuning and content.
+- Contains ScriptableObject definitions and instances.
+- Rule: Keep data-only, no runtime logic.

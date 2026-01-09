@@ -1,0 +1,3 @@
+- Purpose: Runtime code modules for the game.
+- Contains per-domain assemblies and tests.
+- Rule: Respect module dependencies in asmdefs.

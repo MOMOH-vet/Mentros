@@ -1,0 +1,18 @@
+{
+  "name": "BattleTank.Scripts.Runtime.AI",
+  "rootNamespace": "",
+  "references": [
+    "BattleTank.Scripts.Runtime.Core",
+    "BattleTank.Scripts.Runtime.Tanks",
+    "BattleTank.Scripts.Runtime.Combat",
+    "BattleTank.Scripts.Runtime.Content"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

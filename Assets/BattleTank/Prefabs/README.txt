@@ -1,0 +1,3 @@
+- Purpose: Prefab assets for gameplay and UI.
+- Contains reusable GameObject setups.
+- Rule: Prefabs are edited manually only.

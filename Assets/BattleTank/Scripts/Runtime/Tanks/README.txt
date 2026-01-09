@@ -1,0 +1,3 @@
+- Purpose: Tank entities and movement logic.
+- Contains tank controllers and data.
+- Rule: Use Core/Input/Combat/Content only.

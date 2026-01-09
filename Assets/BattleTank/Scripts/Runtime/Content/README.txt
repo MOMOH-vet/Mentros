@@ -1,0 +1,3 @@
+- Purpose: Content definitions used at runtime.
+- Contains content models and lookups.
+- Rule: Depend on Core only.

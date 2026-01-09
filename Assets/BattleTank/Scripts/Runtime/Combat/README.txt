@@ -1,0 +1,3 @@
+- Purpose: Combat rules, damage, and projectiles.
+- Contains combat systems and helpers.
+- Rule: Use Core and Content only.

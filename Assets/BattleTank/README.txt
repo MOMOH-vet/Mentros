@@ -1,0 +1,3 @@
+- Purpose: Root folder for BattleTank game content.
+- Contains asset categories and runtime scripts.
+- Rule: Keep additions in the correct subfolder.

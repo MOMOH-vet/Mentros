@@ -1,0 +1,3 @@
+- Automation must never create/edit/delete scenes or prefabs (manual only).
+- Do not change ProjectSettings or Packages via automation.
+- Guard/validation required for inspector references and save data.
