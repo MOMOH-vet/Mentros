@@ -31,8 +31,8 @@ public class Lesson12Methods : MonoBehaviour
 
     public void runnormalize()
     {
-        float n1 = Normalize01(5f,0f,0f);
-        float n2 = Normalize01(15f, 0f, 0f);
+        float n1 = Normalize01(5f,0f,10f);
+        float n2 = Normalize01(15f, 0f, 10f);
         float n3 = Normalize01(10f, 10f, 10f);
 
         Debug.Log($"{n1}");
@@ -42,7 +42,7 @@ public class Lesson12Methods : MonoBehaviour
     }
     private float Normalize01(float value, float min, float max)
     {
-        if (max == min)
+        if (max != min)
         {
             Debug.LogWarning("normalize01: max == min, деление на 0 невозможно");
             return 0f;
