@@ -1,3 +1,3 @@
-- Purpose: Prefab assets for gameplay and UI.
-- Contains reusable GameObject setups.
-- Rule: Prefabs are edited manually only.
+Назначение: готовые префабы игры.
+Содержимое: игровые и UI-префабы.
+Правило: префабы редактируются только вручную.

@@ -1,0 +1,13 @@
+# Зависимости asmdef
+- BattleTank.Scripts.Runtime.Contracts → (нет)
+- BattleTank.Scripts.Runtime.Core → Contracts
+- BattleTank.Scripts.Runtime.Content → Contracts, Core
+- BattleTank.Scripts.Runtime.Input → Contracts, Core
+- BattleTank.Scripts.Runtime.Combat → Contracts, Core, Content
+- BattleTank.Scripts.Runtime.Tanks → Contracts, Core, Input, Combat, Content
+- BattleTank.Scripts.Runtime.AI → Contracts, Core, Tanks, Combat, Content
+- BattleTank.Scripts.Runtime.Levels → Contracts, Core, Tanks, AI, Combat, Content
+- BattleTank.Scripts.Runtime.Persistence → Contracts, Core, Content
+- BattleTank.Scripts.Runtime.UI → Contracts, Core, Input, Content
+- BattleTank.Scripts.Runtime.Tests → Contracts, Core, Content, Input, Combat, Tanks, AI, Levels, Persistence, UI (Editor)
+- Напоминание: без циклических зависимостей.

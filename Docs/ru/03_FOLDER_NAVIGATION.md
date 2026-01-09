@@ -1,0 +1,18 @@
+# Навигация по папкам
+- Assets/BattleTank — корневые игровые ассеты.
+  - Images — графика.
+  - Prefabs — префабы.
+  - ScriptableObjects — данные конфигурации.
+  - Scripts — исходный код.
+    - Runtime — модули runtime:
+      - Contracts — интерфейсы/enum/ID.
+      - Core — базовая инфраструктура.
+      - Content — данные и каталоги.
+      - Input — ввод.
+      - Combat — бой.
+      - Tanks — логика танков.
+      - AI — ИИ.
+      - Levels — уровни.
+      - Persistence — сохранения.
+      - UI — интерфейс.
+      - Tests — тесты (Editor).

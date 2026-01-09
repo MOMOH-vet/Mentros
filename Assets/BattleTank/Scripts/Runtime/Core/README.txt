@@ -1,3 +1,3 @@
-- Purpose: Shared runtime foundations and utilities.
-- Contains common types and services.
-- Rule: Core has no module dependencies.
+Назначение: базовые системные вещи.
+Содержимое: утилиты, инфраструктура, общие сервисы.
+Правило: не зависеть от игровых модулей.

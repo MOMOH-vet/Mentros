@@ -1,3 +1,3 @@
-- Purpose: Edit-mode tests for runtime modules.
-- Contains test fixtures and helpers.
-- Rule: Editor-only assembly.
+Назначение: runtime-тесты.
+Содержимое: проверки модулей и интеграций.
+Правило: запускать только в Editor.

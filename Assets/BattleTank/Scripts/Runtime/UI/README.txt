@@ -1,3 +1,3 @@
-- Purpose: Runtime UI presentation logic.
-- Contains UI controllers and views.
-- Rule: Depend on Core/Input/Content only.
+Назначение: пользовательский интерфейс.
+Содержимое: экраны, виджеты, UI-логика.
+Правило: UI не зависит от Tanks/Combat/AI/Levels.

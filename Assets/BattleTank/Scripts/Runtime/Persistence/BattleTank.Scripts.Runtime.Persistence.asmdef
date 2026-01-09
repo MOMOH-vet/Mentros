@@ -1,6 +1,7 @@
 {
   "name": "BattleTank.Scripts.Runtime.Persistence",
   "references": [
+    "BattleTank.Scripts.Runtime.Contracts",
     "BattleTank.Scripts.Runtime.Core",
     "BattleTank.Scripts.Runtime.Content"
   ]

@@ -1,9 +1,10 @@
 {
   "name": "BattleTank.Scripts.Runtime.Tests",
   "references": [
+    "BattleTank.Scripts.Runtime.Contracts",
     "BattleTank.Scripts.Runtime.Core",
-    "BattleTank.Scripts.Runtime.Input",
     "BattleTank.Scripts.Runtime.Content",
+    "BattleTank.Scripts.Runtime.Input",
     "BattleTank.Scripts.Runtime.Combat",
     "BattleTank.Scripts.Runtime.Tanks",
     "BattleTank.Scripts.Runtime.AI",

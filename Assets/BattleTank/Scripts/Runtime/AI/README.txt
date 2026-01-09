@@ -1,3 +1,3 @@
-- Purpose: Tank AI behaviors and decision logic.
-- Contains runtime AI scripts.
-- Rule: Depend on Core/Tanks/Combat/Content only.
+Назначение: логика ИИ.
+Содержимое: поведение врагов и принятие решений.
+Правило: зависит только от разрешенных модулей.
