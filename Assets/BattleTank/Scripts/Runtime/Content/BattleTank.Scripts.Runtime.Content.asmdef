@@ -1,15 +1,7 @@
 {
   "name": "BattleTank.Scripts.Runtime.Content",
-  "rootNamespace": "",
   "references": [
+    "BattleTank.Scripts.Runtime.Contracts",
     "BattleTank.Scripts.Runtime.Core"
-  ],
-  "excludePlatforms": [],
-  "allowUnsafeCode": false,
-  "overrideReferences": false,
-  "precompiledReferences": [],
-  "autoReferenced": true,
-  "defineConstraints": [],
-  "versionDefines": [],
-  "noEngineReferences": false
+  ]
 }

@@ -1,6 +1,7 @@
 {
   "name": "BattleTank.Scripts.Runtime.Levels",
   "references": [
+    "BattleTank.Scripts.Runtime.Contracts",
     "BattleTank.Scripts.Runtime.Core",
     "BattleTank.Scripts.Runtime.Tanks",
     "BattleTank.Scripts.Runtime.AI",

@@ -1,3 +1,3 @@
-- Purpose: Combat rules, damage, and projectiles.
-- Contains combat systems and helpers.
-- Rule: Use Core and Content only.
+Назначение: боевая система.
+Содержимое: урон, столкновения, боевые правила.
+Правило: без прямого доступа к UI.

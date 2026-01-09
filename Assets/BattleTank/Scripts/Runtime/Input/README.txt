@@ -1,3 +1,3 @@
-- Purpose: Input handling for gameplay controls.
-- Contains input adapters and mappings.
-- Rule: Depend on Core only.
+Назначение: ввод игрока.
+Содержимое: обработка и маршрутизация команд ввода.
+Правило: без прямого изменения боевой логики.

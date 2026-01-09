@@ -1,3 +1,3 @@
-- Purpose: Level flow and stage composition.
-- Contains level runtime orchestration.
-- Rule: Use Core, Tanks, AI, Combat, Content.
+Назначение: логика уровней.
+Содержимое: генерация, правила и сценарии уровней.
+Правило: не обращаться к UI напрямую.

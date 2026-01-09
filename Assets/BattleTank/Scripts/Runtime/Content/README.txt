@@ -1,3 +1,3 @@
-- Purpose: Content definitions used at runtime.
-- Contains content models and lookups.
-- Rule: Depend on Core only.
+Назначение: контент и данные.
+Содержимое: описания, каталоги, SO-классы.
+Правило: не хранить runtime-логику UI.

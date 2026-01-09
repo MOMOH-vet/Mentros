@@ -1,3 +1,3 @@
-- Purpose: Runtime code modules for the game.
-- Contains per-domain assemblies and tests.
-- Rule: Respect module dependencies in asmdefs.
+Назначение: runtime-код игры.
+Содержимое: модули по подсистемам.
+Правило: зависимости только по настроенной схеме asmdef.

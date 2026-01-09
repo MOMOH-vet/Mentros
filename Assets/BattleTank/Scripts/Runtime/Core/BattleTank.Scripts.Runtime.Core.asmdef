@@ -1,4 +1,6 @@
 {
   "name": "BattleTank.Scripts.Runtime.Core",
-  "references": []
+  "references": [
+    "BattleTank.Scripts.Runtime.Contracts"
+  ]
 }

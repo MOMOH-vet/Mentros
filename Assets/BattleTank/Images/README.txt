@@ -1,3 +1,3 @@
-- Purpose: Store 2D art for the game.
-- Contains sprites, UI textures, and icons.
-- Rule: Import textures with mobile-friendly settings.
+Назначение: графические ресурсы игры.
+Содержимое: спрайты, иконки, атласы.
+Правило: исходники хранить в одном стиле именования.
