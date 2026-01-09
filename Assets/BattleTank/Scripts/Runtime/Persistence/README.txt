@@ -1,0 +1,3 @@
+- Purpose: Save/load and player persistence.
+- Contains persistence systems and data.
+- Rule: Depend on Core and Content only.

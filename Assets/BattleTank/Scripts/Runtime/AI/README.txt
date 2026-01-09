@@ -1,0 +1,3 @@
+- Purpose: Tank AI behaviors and decision logic.
+- Contains runtime AI scripts.
+- Rule: Depend on Core/Tanks/Combat/Content only.

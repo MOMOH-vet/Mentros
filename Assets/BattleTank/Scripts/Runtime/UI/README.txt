@@ -1,0 +1,3 @@
+- Purpose: Runtime UI presentation logic.
+- Contains UI controllers and views.
+- Rule: Depend on Core/Input/Content only.

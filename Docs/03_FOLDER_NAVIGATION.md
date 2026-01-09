@@ -1,0 +1,6 @@
+- Assets/BattleTank: root game content.
+  - Images: sprites and UI textures.
+  - Prefabs: reusable GameObject assets.
+  - ScriptableObjects: data assets.
+  - Scripts: code modules and tests.
+    - Runtime: per-module assemblies.

@@ -1,0 +1,4 @@
+- Component-based approach with modular runtime assemblies.
+- Data authored via ScriptableObjects.
+- Prefabs used for reusable GameObject setups.
+- Modules: Core (shared), Input, Tanks, Combat, AI, Levels, UI, Persistence, Content.

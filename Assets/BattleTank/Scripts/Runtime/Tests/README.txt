@@ -1,0 +1,3 @@
+- Purpose: Edit-mode tests for runtime modules.
+- Contains test fixtures and helpers.
+- Rule: Editor-only assembly.

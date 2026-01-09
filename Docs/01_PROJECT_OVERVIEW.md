@@ -1,0 +1,6 @@
+- Game: BattleTank (Battle City-like).
+- Platform: Android, offline.
+- Orientation: Portrait.
+- Camera: Top-down.
+- Movement: 4-direction (up/down/left/right).
+- Planned features: core combat, AI enemies, levels, progression.

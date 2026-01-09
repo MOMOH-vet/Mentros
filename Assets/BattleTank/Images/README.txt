@@ -1,0 +1,3 @@
+- Purpose: Store 2D art for the game.
+- Contains sprites, UI textures, and icons.
+- Rule: Import textures with mobile-friendly settings.

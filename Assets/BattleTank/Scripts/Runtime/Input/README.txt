@@ -1,0 +1,3 @@
+- Purpose: Input handling for gameplay controls.
+- Contains input adapters and mappings.
+- Rule: Depend on Core only.

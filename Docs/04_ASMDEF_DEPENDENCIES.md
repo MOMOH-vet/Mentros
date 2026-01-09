@@ -1,0 +1,11 @@
+- Core: (none).
+- Content: Core.
+- Input: Core.
+- Combat: Core, Content.
+- Tanks: Core, Input, Combat, Content.
+- AI: Core, Tanks, Combat, Content.
+- Levels: Core, Tanks, AI, Combat, Content.
+- Persistence: Core, Content.
+- UI: Core, Input, Content (avoid Tanks/Combat/AI/Levels).
+- Tests: Core, Input, Content, Combat, Tanks, AI, Levels, Persistence, UI.
+- Avoid circular dependencies.

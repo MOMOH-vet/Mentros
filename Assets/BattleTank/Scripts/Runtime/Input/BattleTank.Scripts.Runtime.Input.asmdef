@@ -1,0 +1,6 @@
+{
+  "name": "BattleTank.Scripts.Runtime.Input",
+  "references": [
+    "BattleTank.Scripts.Runtime.Core"
+  ]
+}

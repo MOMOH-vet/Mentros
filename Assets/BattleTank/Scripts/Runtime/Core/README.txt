@@ -1,0 +1,3 @@
+- Purpose: Shared runtime foundations and utilities.
+- Contains common types and services.
+- Rule: Core has no module dependencies.

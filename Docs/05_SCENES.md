@@ -1,0 +1,5 @@
+- Bootstrap: app initialization and bindings.
+- MainMenu: navigation and mode selection.
+- Game: core gameplay loop.
+- Garage: tank selection and upgrades.
+- Scenes are created/edited manually by the developer.
