@@ -1,0 +1,17 @@
+{
+    "name": "BattleTank.Scripts.Runtime.DebugGame",
+    "rootNamespace": "",
+    "references": [
+        "GUID:984ed29360c1a0e48a2f414da0724824",
+        "GUID:dee1065ba420b644a9e5a25ee518e261"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
