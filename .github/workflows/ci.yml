@@ -2,11 +2,31 @@ name: CI
 
 on:
   push:
+    paths:
+      - .github/workflows/ci.yml
+      - Assets/**
+      - Packages/**
+      - ProjectSettings/**
+      - Tools/ci/**
   pull_request:
+    paths:
+      - .github/workflows/ci.yml
+      - Assets/**
+      - Packages/**
+      - ProjectSettings/**
+      - Tools/ci/**
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   validate-project-layout:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
